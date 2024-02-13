@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">Let's PLAY!</h1>
+    <div class="play-container">
+      <div class="player">
+        <h2>Player 1</h2>
+        <select name="player1" id="player1">
+          <option
+            value="rock"
+            style="background-image: url(./imgs/player1Rock.png)"
+          >
+            Rock 🪨
+          </option>
+          <option
+            value="paper"
+            style="background-image: url(./imgs/player1Paper.png)"
+          >
+            Paper 📄
+          </option>
+          <option
+            value="scissors"
+            style="background-image: url(./imgs/player1Scissors.png)"
+          >
+            Scissors ✂️
+          </option>
+        </select>
+      </div>
+      <div class="player">
+        <h2>Payer 2</h2>
+        <select name="player2" id="player2">
+          <option value="rock">Rock 🪨</option>
+          <option value="paper">Paper 📄</option>
+          <option value="scissors">Scissors ✂️</option>
+        </select>
+      </div>
+    </div>
+    <button id="play">play</button>
+
+    <h2 id="winner"></h2>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
