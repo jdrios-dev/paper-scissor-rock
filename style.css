@@ -45,3 +45,8 @@
 option {
   font-size: 2rem;
 }
+
+.score {
+  font-size: 2rem;
+  text-align: center;
+}
